@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<emu>
+<start>
+<startemu daemon="/usr/bin/dccamd" />
+</start>
+<stop>
+<killemu command="killall -9 dccamd" />
+</stop>
+</emu>

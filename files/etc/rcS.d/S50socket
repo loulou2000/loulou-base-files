@@ -1,0 +1,15 @@
+#!/bin/sh
+
+cd /tmp
+
+ln -s egami.socket loulou.socket
+
+ln -s egami.inf loulou.inf
+
+ln -s egami_e2_installer.sh loulou_e2_installer.sh
+
+
+
+exit 0
+
+
